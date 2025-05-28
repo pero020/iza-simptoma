@@ -1,0 +1,46 @@
+---
+title: 'Zatezanje u lijevom dijelu vrata prilikom udaha'
+date: '2025-05-28'
+lastmod: '2025-05-28'
+tags: ['simptomi', 'vrat', 'sci-fi', 'fantastika']
+draft: false
+summary: 'Mlada studentica opisuje kako je bezazlen simptom zatezanja u vratu otkrio nešto što nadilazi stvarnost.'
+images: []
+authors: ['Ana22']
+---
+
+Imam 22 godine, studentica sam kroatistike, i nisam hipohondar. Ili bar nisam bila, dok mi se nije počelo događati nešto što stvarno ne mogu objasniti.
+
+Sve je počelo jedne večeri dok sam radila prezentaciju iz jezičnih normi. Sjela sam dublje udahnut, onako, da se rastegnem, i odjednom — **zatezanje u lijevom dijelu vrata**. Nije bilo bolno, samo... nelagodno. Kao da mi je nešto „ukliješteno“. Pomislila sam da sam se ukočila, jer često spavam na boku s uvrnutim vratom, ali sutradan se osjećaj nije povukao. I sljedeći dan opet. I onda svaki put kad bih dublje udahnula — isti osjećaj: povlačenje iznutra, kao da mi netko drži mišić između prstiju i povlači.
+
+Naravno, googlala sam. Prvo su izašli benigni razlozi: napetost, loše držanje, stres. Onda je došao mrak interneta: aneurizma, tumor pluća, upala živca, „skrivena metastaza“. Bila sam uvjerena da ću umrijeti prije obrane diplomskog.
+
+Pitala sam mamu — rekla je da je to "od mobitela, stalno si pogrbljena". Tata je samo pitao: "Zateže ili boli?" (Tipično njegovo pitanje, ko da sam printer.) Frendice su rekle da sam napokon postala punopravna odrasla osoba jer svi imaju neki simptom koji nikad ne prođe. Super.
+
+Otišla sam kod doktorice. Pogledala me, poslušala pluća, rekla da ne čuje ništa čudno. Rekla je da vjerojatno vučem stres u vratne mišiće. Preporučila masažu, fizikalnu, i „više hodanja na zraku“. Dobro.
+
+Ali evo što se počelo događati: s vremenom, kad bih duboko udahnula, **nije me više samo zatezalo, nego bih čula tiho pucketanje**. Kao da mi nešto u vratu **odgovara** na udah. Najviše noću. Zvuk kao kad otvaraš knjigu prvi put nakon dugo vremena. Bio je... ritmičan.
+
+Počela sam snimati to. I u jednom od videa — i ovo ne znam kako drugačije reći — **čula sam riječi**. Šapat. Ne kroz usta. Nego **iz vrata**. Usred tišine, kad bih udahnula jako, mogla sam razabrati nešto poput: „Još malo. Još malo.“
+
+Mislila sam da haluciniram. Previše stresa. Možda neko retroaktivno oštećenje iz djetinjstva kad sam pala s ljuljačke. Onda sam se sjetila nečega što mi je baka jednom rekla kad sam bila mala — da sam rođena „s tankom kožom između svjetova“. Tada mi je to bilo smiješno. Sad... manje.
+
+Jedne noći, ležala sam u mraku, disala duboko da čujem glasove. Umjesto šapata, **osjetila sam trzaj** u vratu — kao da se nešto pomaknulo. Kao da se otvorio **džep zraka**. I onda, samo na trenutak, sve u sobi je utihnulo. Ne tišina kao bez zvuka, nego **apsolutna odsutnost stvarnosti**. I iz tog džepa... **izašlo nešto**.
+
+Ne mogu ga opisati. Bio je oblik, ali ne za ljudsko oko. Boja koju nisam znala da mogu vidjeti. Stajalo je iznad mene i „gledalo“ bez očiju. I onda sam — a znam da ovo zvuči nemoguće — **osjetila kako me pamti**. Kao da sam mu bila važna. Ili korisna. Ili dio ugovora.
+
+Ujutro, zatezanje je nestalo. Kao da nikad nije bilo. Ali znam da je nešto otišlo **kroz mene**. Da sam bila vrata.
+
+Sad dišem normalno. Samo... ponekad, kad udahnem baš jako, čujem kao da netko pokušava natrag. Još malo. Još malo.
+
+---
+
+> ⚠️ **Napomena:** Ova priča je **fikcija** i služi kao dio zbirke kreativnih tekstova koji počinju s uobičajenim simptomima, a završavaju u znanstvenofantastičnim ili nadrealnim okolnostima.
+>
+> Ovo nije medicinski savjet. Ako imate bilo kakve zdravstvene tegobe, **obavezno se obratite svom liječniku** ili potražite informacije iz pouzdanih izvora:
+>
+> - [HZJZ – Hrvatski zavod za javno zdravstvo](https://www.hzjz.hr)
+> - [Mayo Clinic – Symptoms A–Z](https://www.mayoclinic.org)
+> - [WebMD – Symptom Checker](https://www.webmd.com)
+>
+> Ne vjerujte svemu što pročitate na internetu – uključujući i ovu priču. 😉
