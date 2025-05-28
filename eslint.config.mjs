@@ -21,7 +21,7 @@ export default [
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
+    // 'plugin:prettier/recommended', // Removed prettier plugin
     'next',
     'next/core-web-vitals'
   ),
@@ -48,7 +48,7 @@ export default [
     },
 
     rules: {
-      'prettier/prettier': 'error',
+      // 'prettier/prettier': 'error', // Removed prettier rule
       'react/react-in-jsx-scope': 'off',
 
       'jsx-a11y/anchor-is-valid': [

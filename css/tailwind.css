@@ -24,6 +24,11 @@
   --color-primary-900: oklch(0.408 0.153 2.432);
   --color-primary-950: oklch(0.284 0.109 3.907);
 
+  /* Sci-fi accent colors */
+  --color-scifi-glow: #4ae3ff;
+  --color-scifi-purple: #8258ff;
+  --color-scifi-dark: #0a0d1a;
+
   --color-gray-50: oklch(0.985 0.002 247.839);
   --color-gray-100: oklch(0.967 0.003 264.542);
   --color-gray-200: oklch(0.928 0.006 264.531);
@@ -172,4 +177,95 @@ input:-webkit-autofill:focus {
 .linkicon {
   display: inline-block;
   vertical-align: middle;
+}
+
+/* Custom styles for Iza Simptoma blog */
+.story-content {
+  position: relative;
+}
+
+.story-content blockquote {
+  border-left-color: var(--color-scifi-purple);
+  background-color: rgba(130, 88, 255, 0.05);
+  border-radius: 4px;
+}
+
+.story-content strong {
+  color: var(--color-scifi-purple);
+  font-weight: 700;
+}
+
+.story-content h1, .story-content h2, .story-content h3 {
+  background: linear-gradient(90deg, currentColor, currentColor 85%, var(--color-scifi-glow));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  display: inline-block;
+}
+
+.story-content pre {
+  border: 1px solid rgba(74, 227, 255, 0.3);
+  box-shadow: 0 0 8px rgba(74, 227, 255, 0.1);
+}
+
+.story-content code {
+  color: var(--color-scifi-glow) !important;
+}
+
+/* Glowing effect for the blockquote in disclaimer */
+.story-content blockquote:last-of-type {
+  border-left-color: var(--color-scifi-glow);
+  box-shadow: 0 0 15px rgba(74, 227, 255, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.story-content blockquote:last-of-type:hover {
+  box-shadow: 0 0 20px rgba(74, 227, 255, 0.15);
+}
+
+/* Dark mode adjustments */
+.dark .story-content blockquote {
+  background-color: rgba(130, 88, 255, 0.1);
+}
+
+.dark .story-content blockquote:last-of-type {
+  background-color: rgba(74, 227, 255, 0.05);
+}
+
+/* Homepage title styling with subtle sci-fi glow */
+.home-title {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 1px rgba(74, 227, 255, 0.2);
+}
+
+.home-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 30%, var(--color-scifi-glow));
+  opacity: 0.05;
+  filter: blur(10px);
+  z-index: -1;
+  transform: translateX(-5px);
+}
+
+/* Style for article cards on hover */
+article:hover h2 {
+  color: var(--color-scifi-purple);
+  transition: color 0.3s ease;
+}
+
+/* Tag styling with sci-fi accents */
+.tag {
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background-color: rgba(130, 88, 255, 0.1);
+  border-color: var(--color-scifi-purple);
 }

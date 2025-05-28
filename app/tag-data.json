@@ -1,10 +1,12 @@
 {
-  "simptomi": 3,
+  "simptomi": 4,
   "toplina": 1,
   "ruka": 1,
-  "neurologija": 2,
+  "neurologija": 3,
   "sci-fi": 3,
+  "hladnoća": 1,
+  "stopala": 1,
+  "fantastika": 2,
   "utrnulost": 1,
-  "vrat": 1,
-  "fantastika": 1
+  "vrat": 1
 }
