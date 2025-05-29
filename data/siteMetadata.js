@@ -6,15 +6,9 @@ const siteMetadata = {
   description: 'Kreativne priče o zdravstvenim simptomima s neočekivanim sci-fi ili fantastičnim završecima.',
   language: 'hr-HR',
   theme: 'light', // system, dark or light
-  siteUrl: 'https://iza-simptoma.com',
+  siteUrl: 'https://izasimptoma.com',
   siteRepo: '',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  email: 'kontakt@iza-simptoma.com',
-  github: '',
-  x: '',
-  facebook: 'https://facebook.com',
-  instagram: 'https://www.instagram.com',
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo2.png`,
   locale: 'hr-HR',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
@@ -52,7 +46,7 @@ const siteMetadata = {
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
     // https://vercel.com/docs/environment-variables
-    provider: 'giscus', // supported providers: giscus, utterances, disqus
+    // provider: 'giscus', // supported providers: giscus, utterances, disqus
     giscusConfig: {
       // Visit the link below, and follow the steps in the 'configuration' section
       // https://giscus.app/
