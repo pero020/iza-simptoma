@@ -12,13 +12,16 @@ const Header = () => {
     headerClass += ' sticky top-0 z-50'
   }
 
+  // Use the logo from siteMetadata which already handles basePath correctly
+  const logoPath = siteMetadata.siteLogo
+
   return (
     <header className={headerClass}>
       <Link href="/" aria-label={siteMetadata.headerTitle}>
         <div className="flex items-center justify-between">
           <div className="mr-3">
             <Image 
-              src="/static/images/logo.png" 
+              src={logoPath}
               alt="Logo" 
               width={50} 
               height={50} 
