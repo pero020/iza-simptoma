@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'Iza Simptoma',
-  author: 'Iza Simptoma Team',
+  author: 'Iza Simptoma Tim',
   headerTitle: 'Iza Simptoma',
   description: 'Kreativne priče o zdravstvenim simptomima s neočekivanim sci-fi ili fantastičnim završecima.',
   language: 'hr-HR',
