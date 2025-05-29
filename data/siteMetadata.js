@@ -10,6 +10,7 @@ const siteMetadata = {
   siteRepo: '',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   locale: 'hr-HR',
+  email: 'kontakt@izasimptoma.com',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {
