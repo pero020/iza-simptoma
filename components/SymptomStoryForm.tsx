@@ -129,7 +129,7 @@ const SymptomStoryForm = ({ title = 'Podijelite svoju ideju za priču' }: Sympto
               disabled={loading}
               className="w-full rounded-md bg-primary-500 px-4 py-2 font-medium text-white hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:ring-offset-gray-800 disabled:opacity-50"
             >
-              {loading ? 'Šaljem...' : 'Pošalji svoju priču'}
+              {loading ? 'Šaljem...' : 'Pošalji'}
             </button>
             
             <p className="mt-2 text-xs text-gray-600 dark:text-gray-400">
