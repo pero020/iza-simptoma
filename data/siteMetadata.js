@@ -8,7 +8,7 @@ const siteMetadata = {
   theme: 'light', // system, dark or light
   siteUrl: 'https://izasimptoma.com',
   siteRepo: '',
-  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo2.png`,
+  siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   locale: 'hr-HR',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
