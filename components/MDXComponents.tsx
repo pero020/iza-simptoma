@@ -6,6 +6,7 @@ import Image from './Image'
 import CustomLink from './Link'
 import TableWrapper from './TableWrapper'
 import StoryDisclaimer from './StoryDisclaimer'
+import SymptomStoryForm from './SymptomStoryForm'
 
 export const components: MDXComponents = {
   Image,
@@ -15,4 +16,5 @@ export const components: MDXComponents = {
   table: TableWrapper,
   BlogNewsletterForm,
   StoryDisclaimer,
+  SymptomStoryForm,
 }
