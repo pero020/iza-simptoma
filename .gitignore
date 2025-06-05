@@ -48,3 +48,4 @@ yarn-error.log*
 .contentlayer
 
 prompt.txt
+prompt_agent.txt
