@@ -62,22 +62,49 @@ const computedFields: ComputedFields = {
 /**
  * Count the occurrences of all tags across blog posts and write to json file
  */
-async function createTagCount(allBlogs) {
+async function createTagCountAndMap(allBlogs) {
   const tagCount: Record<string, number> = {}
+  const tagMap: Record<string, string> = {}
+  const croatianToLatinMap: Record<string, string> = {
+    'č': 'c',
+    'ć': 'c',
+    'đ': 'd',
+    'š': 's',
+    'ž': 'z',
+    'Č': 'C',
+    'Ć': 'C',
+    'Đ': 'D',
+    'Š': 'S',
+    'Ž': 'Z',
+  }
+
   allBlogs.forEach((file) => {
     if (file.tags && (!isProduction || file.draft !== true)) {
       file.tags.forEach((tag) => {
-        const formattedTag = slug(tag)
+        const latinTag = tag
+          .split('')
+          .map((char) => croatianToLatinMap[char] || char)
+          .join('')
+        const formattedTag = slug(latinTag)
+
+        // Update tag count
         if (formattedTag in tagCount) {
           tagCount[formattedTag] += 1
         } else {
           tagCount[formattedTag] = 1
         }
+
+        // Update tag map
+        tagMap[tag] = formattedTag
       })
     }
   })
-  const formatted = await prettier.format(JSON.stringify(tagCount, null, 2), { parser: 'json' })
-  writeFileSync('./app/tag-data.json', formatted)
+
+  const formattedTagCount = await prettier.format(JSON.stringify(tagCount, null, 2), { parser: 'json' })
+  const formattedTagMap = await prettier.format(JSON.stringify(tagMap, null, 2), { parser: 'json' })
+
+  writeFileSync('./app/tag-data.json', formattedTagCount)
+  writeFileSync('./app/tag-map.json', formattedTagMap)
 }
 
 function createSearchIndex(allBlogs) {
@@ -181,7 +208,7 @@ export default makeSource({
   },
   onSuccess: async (importData) => {
     const { allBlogs } = await importData()
-    createTagCount(allBlogs)
+    createTagCountAndMap(allBlogs)
     createSearchIndex(allBlogs)
   },
 })
